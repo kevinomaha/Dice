@@ -33,6 +33,7 @@ module.exports = async function (context, req) {
 
 }
 
+//Function to compute random number between two values
 function between(min, max) {  
     return Math.floor(
       Math.random() * (max - min) + min
